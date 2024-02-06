@@ -1,0 +1,76 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.AppTitle {
+  margin-bottom: 2rem;
+}
+.InputCity {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+.GetButton {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.WeatherCard {
+  background-color: #e7e7e7;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 20%;
+  border-radius: 1rem;
+  transition: 0.2s;
+  
+}
+.WeatherCardBlue {
+  background-color: #cddeff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 20%;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+.WeatherCardRed {
+  background-color: #ffcdcd;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 20%;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+.WeatherCard p,
+h2 {
+  transition: 0.2s;
+}
+.WeatherCard :hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.ActualTemp {
+  color: black;
+}
+.ActualTempRed {
+  color: red;
+}
+.ActualTempBlue {
+  color: blue;
+}
+.TemperatureFork {
+  display: flex;
+  justify-content: space-evenly;
+  transition: 0.2s;
+}
+span {
+  transition: 0.2s;
+  font-size: 2rem;
+  font-weight: 700;
+}
